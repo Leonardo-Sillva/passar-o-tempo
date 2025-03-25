@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Tektur", sans-serif;
+}
+body {
+    position: relative;
+}
+html::before {
+    content: "";
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://www.rbsdirect.com.br/filestore/4/9/5/2/8/0/5_8429a6591fc21b9/5082594_64f9d26f4afe38e.jpeg?w=700');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    z-index: -1;
+}
+#container {
+    width: 40%;
+    background-color: rgb(223, 163, 114);
+    margin: 20px auto;
+    border-radius: 16px;
+}
+img {
+    width: 100%;
+    padding: 2%;
+    border-radius: 16px;
+}
+#box-text {
+    width: 94%;
+    margin: 0px auto;
+    padding-bottom: 20px ;
+}
+ul {
+    list-style-position: inside;
+}
