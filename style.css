@@ -37,3 +37,8 @@ img {
 ul {
     list-style-position: inside;
 }
+footer {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
